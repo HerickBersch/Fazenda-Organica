@@ -1,0 +1,201 @@
+:root {
+    --verde: #1B4436;
+    --verde_transparente: #225243CC;
+    --verde_claro: #50AA5A;
+    --preto: black;
+    --branco:#ffff;
+}
+
+h1, h2{
+    font-family: 'Quicksand',serif;
+    font-weight: 500;
+}
+
+
+.cabecalho {
+
+    display: flex;
+    border: 15px;
+    background-color: var(--verde);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.cabecalho_navegacao {
+    color: var(--branco);
+    display: flex;
+    height: 18px;
+    font-size: 20px;
+    gap: 10px;
+
+
+
+}
+
+.navegacao_links {
+    margin-left: 10px;
+}
+
+.banner {
+    background: url(/assets/imagem/image\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 399px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cabecalho_titulo {
+    background-color: var(--verde_transparente);
+    color: #ffff;
+    font-size: 48px;
+    width: 523px;
+    height: 83px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.blocos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    /* Define o padding de 20px no topo */
+    padding-right: 10%;
+    /* Define o padding de 10px no lado direito */
+    padding-bottom: 20%;
+    /* Define o padding de 20px na parte inferior */
+    padding-left: 10%;
+    /* Define o padding de 10px no lado esquerdo */
+    max-width: 1200px;
+}
+
+.bordas {
+    border: 2px solid var(--verde_claro);
+    border-radius: 10px;
+    
+}
+
+.producao_de_uva {
+    display: flex;
+    flex-direction: column;
+    border: black;
+    border-radius: 20px 20px 20px 20px;
+    
+
+}
+
+.uva_imagem {
+    background: url(/assets/imagem/pexels-jill-wellington-39351\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+
+}
+
+.letra {
+    padding: 10px;
+
+}
+
+.rodape_bloco {
+    background-color: var(--verde_claro);
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 44px;
+
+
+}
+
+.gado_imagem {
+    background-image: url(/assets/imagem/pexels-carboxaldehyde-5848486\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+
+}
+
+.larana_imagem {
+    background-image: url(/assets/imagem/pexels-artem-beliaikin-1675211\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+
+
+}
+
+.caprinos_imagem {
+    background-image: url(/assets/imagem/pexels-trinity-kubassek-288621\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+
+
+}
+
+.ovos_imagem {
+    background-image: url(/assets/imagem/pexels-alison-burrell-195226\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+
+}
+
+.tomate_imagem {
+    background-image: url(/assets/imagem/pexels-suvan-chowdhury-428301\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+
+}
+
+.hortifruti_imagem {
+    background-image: url(/assets/imagem/pexels-thisisengineering-3912947\ 1.png);
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    padding: 0;
+    line-height: 248px;
+}
+
+.rodape {
+    background-color: #1B4436;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+   
+}
+
+.rodape p {
+    margin: 0;
+}
